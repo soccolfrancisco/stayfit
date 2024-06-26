@@ -9,7 +9,7 @@
 @section('map')
 
     <script src="{{ asset('frontend/js/map.js') }}"></script>
-    <script src="{{ asset('//maps.googleapis.com/maps/api/js?key=AIzaSyB9UZdfKd76etfKPWMvHKXXnjNL-Z708U8') }}"></script>
+    <script src="{{ asset('//maps.googleapis.com/maps/api/js?key=?') }}"></script>
 
 @endsection
 
