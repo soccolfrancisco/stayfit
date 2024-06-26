@@ -5,7 +5,7 @@ var apiGeolocationSuccess = function(position) {
 };
 
 var tryAPIGeolocation = function() {
-    jQuery.post( "//www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyD0A5xoikJjxyRrdubjJWu845lAckSvpIQ", function(success) {
+    jQuery.post( "//www.googleapis.com/geolocation/v1/geolocate?key=?", function(success) {
         apiGeolocationSuccess({coords: {latitude: success.location.lat, longitude: success.location.lng}});
     }).fail(function(err) {
             alert("Erro!\n\n Por favor, atualize a página. \n\n"+err);
